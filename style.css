@@ -11,12 +11,18 @@ h1 {
     font-size: 3em;
 }
 
+#odin{
+    max-height: 22em;
+}
+
 #recipe-list {
-    display: table;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
 }
 
-button, button a {
+a button {
+    cursor: pointer;
     width: 10em;
     height: 3em;
     text-decoration: none;
